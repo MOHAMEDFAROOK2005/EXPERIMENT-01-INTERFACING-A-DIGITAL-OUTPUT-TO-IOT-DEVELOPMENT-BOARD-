@@ -107,8 +107,9 @@ int main(void)
 
 
 ## OUTPUT  :
+# ON:
  ![ON](https://github.com/user-attachments/assets/d6065945-e28e-43dd-8649-b46b9c8651b1)
-
+# OFF:
  ![OFF](https://github.com/user-attachments/assets/2b7fe96b-94e8-439e-8cb4-e981bbc728bd)
 
  
