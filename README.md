@@ -1,8 +1,8 @@
-###  DATE: 
+###  DATE: 05-03-2025
 
-###  NAME: 
-###  ROLL NO :
-###  DEPARTMENT: 
+###  NAME: MOHAMED FAROOK S
+###  ROLL NO : 212223110029
+###  DEPARTMENT: CSE(IoT)
 
 
 
@@ -86,14 +86,31 @@ The main features of LPC2148 include the following.
 
 
 ## STM 32 CUBE PROGRAM :
+void SystemClock_Config(void);
+static void MX_GPIO_Init(void);
 
+int main(void)
+{
+  
+  HAL_Init();
+  SystemClock_Config();
+  MX_GPIO_Init();
+  while (1)
+  {
+	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_RESET);
+	  HAL_Delay(3000);
+	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_SET);
+	  HAL_Delay(3000);
+  }
 
 
 
 
 ## OUTPUT  :
- 
- 
+ ![ON](https://github.com/user-attachments/assets/d6065945-e28e-43dd-8649-b46b9c8651b1)
+
+ ![OFF](https://github.com/user-attachments/assets/2b7fe96b-94e8-439e-8cb4-e981bbc728bd)
+
  
  
 ## Result :
